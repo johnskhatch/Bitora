@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "bitora_backend": {
+      "main": "src/bitora_backend/main.mo",
+      "type": "motoko"
+    },
+    "bitora_frontend": {
+      "dependencies": [
+        "bitora_backend"
+      ],
+      "source": [
+        "src/bitora_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "bitora_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
