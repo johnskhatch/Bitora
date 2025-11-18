@@ -4,6 +4,18 @@
       "main": "src/bitora_backend/main.mo",
       "type": "motoko"
     },
+    "Analytics": {
+      "main": "src/bitora_backend/Analytics/analytics.mo",
+      "type": "motoko"
+    },
+    "Governance": {
+      "main": "src/bitora_backend/Governance/governance.mo",
+      "type": "motoko"
+    },
+    "UserManagement": {
+      "main": "src/bitora_backend/User/user.mo",
+      "type": "motoko"
+    },
     "bitora_frontend": {
       "dependencies": [
         "bitora_backend"
